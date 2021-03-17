@@ -36,40 +36,8 @@ D、3&nbsp;&nbsp;3
 
 E、2&nbsp;&nbsp;2
 
-**4、阅读下面的一段代码**
-```Java
-class A {
-    static {
-        System.out.println("1");
-    }
-    {
-        System.out.println("2");
-    }
-    A() {
-        System.out.println("3");
-    }
-    {
-        System.out.println("4");
-    }
-}
-public class Demo {
-    public static void main(String[] args) {
-        new A();
-        new A();
-    }
-}
-```
-写出程序运行的打印结果：
-```
+**4、 下列程序运行的结果是（&nbsp;&nbsp;&nbsp;&nbsp;）**
 
-
-
-
-
-
-```
-
-**5、 下列程序运行的结果是（&nbsp;&nbsp;&nbsp;&nbsp;）**
 ```Java
 public static void main(String args[]) {
     Thread t = new Thread() {
@@ -93,7 +61,7 @@ C、pingpong和pongping都有可能
 
 D、都不输出
 
-**6、下列程序运行的结果是（&nbsp;&nbsp;&nbsp;&nbsp;）**
+**5、下列程序运行的结果是（&nbsp;&nbsp;&nbsp;&nbsp;）**
 
 ```java
 public class Example {
@@ -135,21 +103,7 @@ D、 test ok and gbc
 |王五|数学|100|
 |王五|英语|90|
 
-1）用一条SQL语句查询出`语文`课程的最高分数
-```
-
-
-
-
-
-
-
-
-
-
-```
-
-2）用一条SQL语句查询出每门课程获得最高分的学生姓名和分数
+1）用一条SQL语句查询出每门课程获得最高分的学生姓名和分数
 ```
 
 
